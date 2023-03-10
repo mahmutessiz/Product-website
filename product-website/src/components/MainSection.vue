@@ -1,3 +1,7 @@
+<script setup>
+import ProductsSection from './ProductsSection.vue'
+</script>
+
 <template>
   <main class="grid h-screen w-full place-items-center px-12">
     <div class="md:w-1/2">
@@ -24,4 +28,6 @@
       <li class="border-b border-warning p-9 shadow-sm shadow-slate-500">Strawberry</li>
     </ul>
   </div>
+
+  <ProductsSection />
 </template>

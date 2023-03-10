@@ -19,7 +19,7 @@
       <a class="hidden sm:flex">G</a>
       <div class="drawer-content md:hidden">
         <!-- Page content here -->
-        <label for="my-drawer" class="btn-primary btn-outline drawer-button btn">&#9776;</label>
+        <label for="my-drawer" class="drawer-button btn-primary btn-outline btn">&#9776;</label>
       </div>
     </div>
   </header>
