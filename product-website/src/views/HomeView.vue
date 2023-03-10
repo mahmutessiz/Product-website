@@ -1,7 +1,7 @@
-<script setup></script>
+<script setup>
+import MainSection from '../components/MainSection.vue'
+</script>
 
 <template>
-  <main>
-    <span>homeview</span>
-  </main>
+  <MainSection />
 </template>

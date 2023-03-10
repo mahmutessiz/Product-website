@@ -4,7 +4,7 @@
     <nav class="flex gap-4">
       <img src="../../public/favicon.ico" alt="logo" />
       <div class="hidden md:flex">
-        <ul class="flex gap-4 text-3xl text-white">
+        <ul class="ml-4 flex gap-4 text-3xl text-gray-200">
           <li><a>Docs</a></li>
           <li><a>Showcase</a></li>
           <li><a>Resouces</a></li>
