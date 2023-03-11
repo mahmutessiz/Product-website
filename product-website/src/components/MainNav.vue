@@ -13,9 +13,15 @@
       </div>
     </nav>
     <div class="flex items-center justify-center gap-4 text-3xl">
-      <a class="hidden sm:flex">T</a>
-      <a class="hidden sm:flex">D</a>
-      <a class="hidden sm:flex">G</a>
+      <a class="hidden cursor-pointer sm:flex"
+        ><img src="../images/facebook.png" class="w-8 bg-white" alt=""
+      /></a>
+      <a class="hidden cursor-pointer sm:flex"
+        ><img src="../images/discord.png" class="w-8 bg-white" alt=""
+      /></a>
+      <a class="hidden cursor-pointer sm:flex"
+        ><img src="../images/github.png" class="w-8 bg-white" alt=""
+      /></a>
       <div class="drawer-content md:hidden">
         <!-- Page content here -->
         <label for="my-drawer" class="drawer-button btn-primary btn-outline btn">&#9776;</label>
