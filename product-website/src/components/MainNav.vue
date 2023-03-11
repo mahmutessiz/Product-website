@@ -5,7 +5,6 @@
       <img src="../../public/favicon.ico" alt="logo" />
       <div class="hidden md:flex">
         <ul class="ml-4 flex gap-4 text-3xl text-gray-200">
-          <li><a>Docs</a></li>
           <li><a>Showcase</a></li>
           <li><a>Resouces</a></li>
           <li><a>About</a></li>
@@ -24,14 +23,13 @@
     </div>
   </header>
 
-  <div class="drawer fixed z-50 md:hidden">
+  <div class="drawer absolute z-50 md:hidden">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
 
     <div class="drawer-side">
       <label for="my-drawer" class="drawer-overlay"></label>
-      <ul class="menu w-full gap-4 bg-base-100 p-4 font-mono text-3xl text-white">
+      <ul class="menu w-full gap-4 overscroll-none bg-base-100 p-4 font-mono text-3xl text-white">
         <!-- Sidebar content here -->
-        <li><a>Docs</a></li>
         <li><a>Showcase</a></li>
         <li><a>Resouces</a></li>
         <li><a>About</a></li>

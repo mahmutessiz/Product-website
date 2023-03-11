@@ -1,5 +1,6 @@
 <script setup>
 import ProductsSection from './ProductsSection.vue'
+import CompareOthersSection from './CompareOthersSection.vue'
 </script>
 
 <template>
@@ -30,4 +31,5 @@ import ProductsSection from './ProductsSection.vue'
   </div>
 
   <ProductsSection />
+  <CompareOthersSection />
 </template>
