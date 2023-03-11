@@ -41,9 +41,15 @@
         <li><a>About</a></li>
         <li><a>Blog</a></li>
         <li class="flex flex-row justify-evenly">
-          <a>T</a>
-          <a>D</a>
-          <a>G</a>
+          <a class="hidden cursor-pointer sm:flex"
+            ><img src="../images/facebook.png" class="w-8" alt=""
+          /></a>
+          <a class="hidden cursor-pointer sm:flex"
+            ><img src="../images/discord.png" class="w-8" alt=""
+          /></a>
+          <a class="hidden cursor-pointer sm:flex"
+            ><img src="../images/github.png" class="w-8" alt=""
+          /></a>
         </li>
         <button class="btn-outline btn-secondary btn">Get Started</button>
       </ul>

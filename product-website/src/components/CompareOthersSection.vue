@@ -10,6 +10,7 @@
             <table class="min-w-full text-center text-sm font-light">
               <thead class="border-b font-medium dark:border-neutral-500">
                 <tr>
+                  <th></th>
                   <th scope="col" class="px-6 py-4">Your product</th>
                   <th scope="col" class="px-6 py-4">Others</th>
                   <th scope="col" class="px-6 py-4">Others</th>
@@ -17,16 +18,19 @@
               </thead>
               <tbody>
                 <tr class="border-b dark:border-neutral-500">
+                  <td class="whitespace-nowrap px-6 py-4">#</td>
                   <td class="whitespace-nowrap px-6 py-4">✅</td>
                   <td class="whitespace-nowrap px-6 py-4">❎</td>
                   <td class="whitespace-nowrap px-6 py-4">❎</td>
                 </tr>
                 <tr class="border-b dark:border-neutral-500">
+                  <td class="whitespace-nowrap px-6 py-4">#</td>
                   <td class="whitespace-nowrap px-6 py-4">✅</td>
                   <td class="whitespace-nowrap px-6 py-4">❎</td>
                   <td class="whitespace-nowrap px-6 py-4">❎</td>
                 </tr>
                 <tr class="border-b dark:border-neutral-500">
+                  <td class="whitespace-nowrap px-6 py-4">#</td>
                   <td class="whitespace-nowrap px-6 py-4">✅</td>
                   <td class="whitespace-nowrap px-6 py-4">❎</td>
                   <td class="whitespace-nowrap px-6 py-4">❎</td>

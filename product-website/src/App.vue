@@ -1,11 +1,11 @@
 <script setup>
 import MainNav from './components/MainNav.vue'
 import FooterSection from './components/FooterSection.vue'
-import HomeView from './views/HomeView.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
   <MainNav />
-  <HomeView />
+  <RouterView />
   <FooterSection />
 </template>
