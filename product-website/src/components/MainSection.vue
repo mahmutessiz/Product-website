@@ -7,13 +7,18 @@ import CompareOthersSection from './CompareOthersSection.vue'
   <main class="grid h-screen w-full place-items-center px-12">
     <div class="md:w-1/2">
       <h1 class="text-center font-serif text-3xl font-bold leading-snug text-gray-200 sm:text-6xl">
-        Add your website's motto in here
+        <span class="bg-gradient-to-r from-rose-400 to-purple-500 bg-clip-text text-transparent">
+          Add your website's motto in here
+        </span>
       </h1>
       <p class="mt-12 text-center text-gray-300 sm:text-xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consequatur at. Soluta
         laboriosam qui eaque cumque cum ipsa quibusdam nostrum expedita aliquam iste assumenda,
         placeat quae voluptatum eos officiis aspernatur!
       </p>
+      <div class="flex w-full justify-center">
+        <button class="btn-outline btn-warning btn mt-9">Try for free</button>
+      </div>
     </div>
   </main>
   <div class="m-auto -mt-12 w-2/3 text-center">
