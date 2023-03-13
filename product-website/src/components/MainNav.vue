@@ -1,26 +1,28 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
 <template>
   <header class="flex w-full items-center justify-between gap-4 bg-black py-6 px-4 sm:px-12">
     <nav class="flex gap-4">
-      <img src="../../public/favicon.ico" alt="logo" />
+      <img src="../../public/favicon.ico" class="cursor-pointer" alt="logo" />
       <div class="hidden md:flex">
-        <ul class="ml-4 flex gap-4 text-3xl text-gray-200">
-          <li><a>Showcase</a></li>
-          <li><a>Resouces</a></li>
-          <li><a>About</a></li>
-          <li><a>Blog</a></li>
+        <ul class="ml-4 flex gap-4 text-xl text-gray-200">
+          <li><RouterLink to="/" class="cursor-pointer">Showcase</RouterLink></li>
+          <li><RouterLink to="/" class="cursor-pointer">Resouces</RouterLink></li>
+          <li><RouterLink to="/" class="cursor-pointer">About</RouterLink></li>
+          <li><RouterLink to="/" class="cursor-pointer">Blog</RouterLink></li>
         </ul>
       </div>
     </nav>
-    <div class="flex items-center justify-center gap-4 text-3xl">
+    <div class="flex items-center justify-center gap-4">
       <a class="hidden cursor-pointer sm:flex"
-        ><img src="../images/facebook.png" class="w-8 bg-white" alt=""
+        ><img src="../images/facebook.png" class="w-8 bg-white" alt="facebook icon"
       /></a>
       <a class="hidden cursor-pointer sm:flex"
-        ><img src="../images/discord.png" class="w-8 bg-white" alt=""
+        ><img src="../images/discord.png" class="w-8 bg-white" alt="discord icon"
       /></a>
       <a class="hidden cursor-pointer sm:flex"
-        ><img src="../images/github.png" class="w-8 bg-white" alt=""
+        ><img src="../images/github.png" class="w-8 bg-white" alt="github icon"
       /></a>
       <div class="drawer-content md:hidden">
         <!-- Page content here -->
@@ -36,19 +38,19 @@
       <label for="my-drawer" class="drawer-overlay"></label>
       <ul class="menu w-full gap-4 overscroll-none bg-base-100 p-4 font-mono text-3xl text-white">
         <!-- Sidebar content here -->
-        <li><a>Showcase</a></li>
-        <li><a>Resouces</a></li>
-        <li><a>About</a></li>
-        <li><a>Blog</a></li>
+        <li><a href="#" class="cursor-pointer">Showcase</a></li>
+        <li><a href="#" class="cursor-pointer">Resouces</a></li>
+        <li><a href="#" class="cursor-pointer">About</a></li>
+        <li><a href="#" class="cursor-pointer">Blog</a></li>
         <li class="flex flex-row justify-evenly">
           <a class="hidden cursor-pointer sm:flex"
-            ><img src="../images/facebook.png" class="w-8" alt=""
+            ><img src="../images/facebook.png" class="w-8 cursor-pointer" alt="facebook icon"
           /></a>
           <a class="hidden cursor-pointer sm:flex"
-            ><img src="../images/discord.png" class="w-8" alt=""
+            ><img src="../images/discord.png" class="w-8 cursor-pointer" alt="discord icon"
           /></a>
           <a class="hidden cursor-pointer sm:flex"
-            ><img src="../images/github.png" class="w-8" alt=""
+            ><img src="../images/github.png" class="w-8 cursor-pointer" alt="github icon"
           /></a>
         </li>
         <button class="btn-outline btn-secondary btn">Get Started</button>

@@ -35,6 +35,18 @@
                   <td class="whitespace-nowrap px-6 py-4">❎</td>
                   <td class="whitespace-nowrap px-6 py-4">❎</td>
                 </tr>
+                <tr class="border-b dark:border-neutral-500">
+                  <td class="whitespace-nowrap px-6 py-4">#</td>
+                  <td class="whitespace-nowrap px-6 py-4">✅</td>
+                  <td class="whitespace-nowrap px-6 py-4">❎</td>
+                  <td class="whitespace-nowrap px-6 py-4">❎</td>
+                </tr>
+                <tr class="border-b dark:border-neutral-500">
+                  <td class="whitespace-nowrap px-6 py-4">#</td>
+                  <td class="whitespace-nowrap px-6 py-4">✅</td>
+                  <td class="whitespace-nowrap px-6 py-4">❎</td>
+                  <td class="whitespace-nowrap px-6 py-4">❎</td>
+                </tr>
               </tbody>
             </table>
           </div>
