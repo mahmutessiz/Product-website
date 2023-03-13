@@ -3,15 +3,33 @@ import { RouterLink } from 'vue-router'
 </script>
 <template>
   <header
-    class="sticky top-0 flex w-full items-center justify-between gap-4 bg-black py-6 px-4 sm:px-12"
+    class="sticky top-0 flex w-full items-center justify-between gap-4 bg-gray-900 py-6 px-4 sm:px-12"
   >
     <nav class="flex gap-4">
       <img src="../../public/favicon.ico" class="cursor-pointer" alt="logo" />
       <div class="hidden md:flex">
         <ul class="ml-4 flex gap-4 text-xl text-gray-200">
-          <li><RouterLink to="/" class="cursor-pointer">Resouces</RouterLink></li>
-          <li><RouterLink to="/" class="cursor-pointer">About</RouterLink></li>
-          <li><RouterLink to="/" class="cursor-pointer">Pricing</RouterLink></li>
+          <li>
+            <RouterLink
+              to="/"
+              class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+              >Resouces</RouterLink
+            >
+          </li>
+          <li>
+            <RouterLink
+              to="/"
+              class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+              >About</RouterLink
+            >
+          </li>
+          <li>
+            <RouterLink
+              to="/"
+              class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+              >Pricing</RouterLink
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -39,9 +57,21 @@ import { RouterLink } from 'vue-router'
       <label for="my-drawer" class="drawer-overlay"></label>
       <ul class="menu w-full gap-4 overscroll-none bg-base-100 p-4 font-mono text-3xl text-white">
         <!-- Sidebar content here -->
-        <li><a href="#" class="cursor-pointer">Resouces</a></li>
-        <li><a href="#" class="cursor-pointer">About</a></li>
-        <li><a href="#" class="cursor-pointer">Pricing</a></li>
+        <li>
+          <a href="#" class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+            >Resouces</a
+          >
+        </li>
+        <li>
+          <a href="#" class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+            >About</a
+          >
+        </li>
+        <li>
+          <a href="#" class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+            >Pricing</a
+          >
+        </li>
         <li class="flex flex-row justify-evenly">
           <a class="hidden cursor-pointer sm:flex"
             ><img
