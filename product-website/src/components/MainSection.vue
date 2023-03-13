@@ -21,17 +21,47 @@ import CompareOthersSection from './CompareOthersSection.vue'
       </div>
     </div>
   </main>
-  <div class="m-auto -mt-12 w-2/3 text-center">
+  <div class="m-auto mt-12 w-2/3 text-center">
     <span class="text-2xl text-gray-200"
       >Sponsors
       <hr />
     </span>
     <ul class="mt-8 flex flex-wrap justify-center gap-6 p-9">
-      <li class="border-b border-warning p-9 shadow-sm shadow-slate-500">apple</li>
-      <li class="border-b border-warning p-9 shadow-sm shadow-slate-500">banana</li>
-      <li class="border-b border-warning p-9 shadow-sm shadow-slate-500">orange</li>
-      <li class="border-b border-warning p-9 shadow-sm shadow-slate-500">cherry</li>
-      <li class="border-b border-warning p-9 shadow-sm shadow-slate-500">Strawberry</li>
+      <li class="border-b border-warning shadow-sm shadow-slate-500">
+        <img
+          src="https://picsum.photos/100/60/"
+          class="transition-transform duration-300 hover:scale-105"
+          alt=""
+        />
+      </li>
+      <li class="border-b border-warning shadow-sm shadow-slate-500">
+        <img
+          src="https://picsum.photos/100/64/"
+          class="transition-transform duration-300 hover:scale-105"
+          alt=""
+        />
+      </li>
+      <li class="border-b border-warning shadow-sm shadow-slate-500">
+        <img
+          src="https://picsum.photos/100/63/"
+          class="transition-transform duration-300 hover:scale-105"
+          alt=""
+        />
+      </li>
+      <li class="border-b border-warning shadow-sm shadow-slate-500">
+        <img
+          src="https://picsum.photos/100/62/"
+          class="transition-transform duration-300 hover:scale-105"
+          alt=""
+        />
+      </li>
+      <li class="border-b border-warning shadow-sm shadow-slate-500">
+        <img
+          src="https://picsum.photos/100/61/"
+          class="transition-transform duration-300 hover:scale-105"
+          alt=""
+        />
+      </li>
     </ul>
   </div>
 

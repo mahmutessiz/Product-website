@@ -1,5 +1,5 @@
 <template>
-  <div class="grid w-full place-items-center">
+  <div class="mt-12 mb-8 grid w-full place-items-center">
     <h2 class="text-3xl font-bold text-gray-300 underline">Some cool stuf</h2>
   </div>
 

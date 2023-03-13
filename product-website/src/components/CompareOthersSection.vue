@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-12 mb-12 flex w-full flex-col items-center justify-center">
+  <section class="mt-24 mb-12 flex w-full flex-col items-center justify-center">
     <h2 class="py-4 text-center text-3xl font-bold text-gray-300 underline">
       Product's pros & cons
     </h2>
