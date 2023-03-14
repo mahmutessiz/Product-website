@@ -13,7 +13,7 @@ import GetInTouchSection from './GetInTouchSection.vue'
       muted
       loop
       poster="../images/facebook.png"
-      class="absolute inset-0 -z-10 hidden h-full sm:block"
+      class="absolute -z-10 hidden w-full md:block"
     >
       <source src="../images/site_bg.webm" type="video/webm" />
       Your browser does not support the video tag.
