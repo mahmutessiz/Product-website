@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 <template>
   <header
-    class="sticky top-0 flex w-full items-center justify-between gap-4 bg-gray-900 py-6 px-4 sm:px-12"
+    class="sticky top-0 z-50 flex w-full items-center justify-between gap-4 bg-gray-900 py-6 px-4 sm:px-12"
   >
     <nav class="flex gap-4">
       <img src="../../public/favicon.ico" class="cursor-pointer" alt="logo" />
