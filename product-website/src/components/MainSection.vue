@@ -6,7 +6,18 @@ import GetInTouchSection from './GetInTouchSection.vue'
 </script>
 
 <template>
-  <main class="grid h-screen w-full place-items-center px-12">
+  <main class="relative grid h-screen w-full place-items-center px-12">
+    <video
+      playsinline
+      autoplay
+      muted
+      loop
+      poster="../images/facebook.png"
+      class="absolute inset-0 -z-10 hidden h-full sm:block"
+    >
+      <source src="../images/site_bg.webm" type="video/webm" />
+      Your browser does not support the video tag.
+    </video>
     <div class="md:w-1/2">
       <h1 class="text-center font-serif text-3xl font-bold leading-snug text-gray-200 sm:text-6xl">
         <span class="bg-gradient-to-r from-rose-400 to-purple-500 bg-clip-text text-transparent">
