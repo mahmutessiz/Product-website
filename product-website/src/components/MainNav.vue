@@ -50,7 +50,7 @@ import { RouterLink } from 'vue-router'
     </div>
   </header>
 
-  <div class="drawer absolute z-50 md:hidden">
+  <div class="drawer fixed z-20 md:hidden">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
 
     <div class="drawer-side">

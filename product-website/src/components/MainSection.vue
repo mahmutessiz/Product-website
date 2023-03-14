@@ -1,6 +1,8 @@
 <script setup>
 import ProductsSection from './ProductsSection.vue'
 import CompareOthersSection from './CompareOthersSection.vue'
+import UtilitiesSection from './UtilitiesSection.vue'
+import GetInTouchSection from './GetInTouchSection.vue'
 </script>
 
 <template>
@@ -17,7 +19,7 @@ import CompareOthersSection from './CompareOthersSection.vue'
         placeat quae voluptatum eos officiis aspernatur!
       </p>
       <div class="flex w-full justify-center">
-        <button class="btn-outline btn-warning btn mt-9">Try for free</button>
+        <button class="btn-outline btn-warning btn mt-9 hover:scale-105">Try for free</button>
       </div>
     </div>
   </main>
@@ -26,7 +28,7 @@ import CompareOthersSection from './CompareOthersSection.vue'
       >Sponsors
       <hr />
     </span>
-    <ul class="mt-8 flex flex-wrap justify-center gap-6 p-9">
+    <ul class="mt-4 flex flex-wrap justify-center gap-6 p-9">
       <li class="border-b border-warning shadow-sm shadow-slate-500">
         <img
           src="https://picsum.photos/100/60/"
@@ -66,5 +68,7 @@ import CompareOthersSection from './CompareOthersSection.vue'
   </div>
 
   <ProductsSection />
+  <UtilitiesSection />
   <CompareOthersSection />
+  <GetInTouchSection />
 </template>

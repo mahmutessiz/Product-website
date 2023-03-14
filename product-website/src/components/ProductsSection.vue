@@ -12,13 +12,13 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="mt-12 mb-8 grid w-full place-items-center">
+  <div class="mt-12 grid w-full place-items-center">
     <h2 class="text-3xl font-bold text-gray-300 underline">Some cool stuf</h2>
   </div>
 
   <!-- image galery -->
   <section class="overflow-hidden text-neutral-700">
-    <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+    <div class="container mx-auto px-5 py-8 lg:px-32 lg:pt-24">
       <div class="-m-1 flex flex-wrap md:-m-2">
         <div class="flex w-1/2 flex-wrap">
           <div class="tilt w-1/2 p-1 md:p-2">
