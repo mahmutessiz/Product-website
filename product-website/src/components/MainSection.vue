@@ -30,11 +30,11 @@ import GetInTouchSection from './GetInTouchSection.vue'
         placeat quae voluptatum eos officiis aspernatur!
       </p>
       <div class="flex w-full justify-center">
-        <button class="btn-outline btn-warning btn mt-9 hover:scale-105">Try for free</button>
+        <button class="btn-warning btn-outline btn mt-9 hover:scale-105">Try for free</button>
       </div>
     </div>
   </main>
-  <div class="m-auto mt-12 w-2/3 text-center">
+  <div class="m-auto mt-12 w-2/3 max-w-[52rem] text-center" id="sponsor-div">
     <span class="text-2xl text-gray-200"
       >Sponsors
       <hr />

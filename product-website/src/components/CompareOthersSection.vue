@@ -3,7 +3,7 @@
     <h2 class="py-4 text-center text-3xl font-bold text-gray-300 underline">
       Product's pros & cons
     </h2>
-    <div class="flex w-2/3 flex-col">
+    <div class="flex w-2/3 max-w-[62rem] flex-col">
       <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
           <div class="overflow-hidden">
