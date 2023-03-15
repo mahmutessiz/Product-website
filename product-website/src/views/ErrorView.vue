@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 <template>
   <div class="gradient flex min-h-screen items-center justify-center text-gray-300">
     <div class="container mx-auto flex flex-wrap items-center p-4">
-      <div class="w-full flex justify-center p-4 text-center md:w-5/12">
+      <div class="flex w-full justify-center p-4 text-center md:w-5/12">
         <img
           src="https://th.bing.com/th/id/OIP.IEoZIP96TEGo6-PAkfPwJgHaEo?pid=ImgDet&rs=1"
           alt="Not Found"
