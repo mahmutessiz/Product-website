@@ -6,26 +6,29 @@ import { RouterLink } from 'vue-router'
     class="sticky top-0 z-50 flex w-full items-center justify-between gap-4 bg-gray-900 py-6 px-4 sm:px-12"
   >
     <nav class="flex gap-4">
-      <img src="../../public/favicon.ico" class="cursor-pointer" alt="logo" />
+      <router-link to="/"
+        ><img src="../../public/favicon.ico" class="cursor-pointer" alt="logo"
+      /></router-link>
+
       <div class="hidden md:flex">
         <ul class="ml-4 flex gap-4 text-xl text-gray-200">
           <li>
             <RouterLink
               to="/"
               class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
-              >Resouces</RouterLink
+              >Home</RouterLink
             >
           </li>
           <li>
             <RouterLink
-              to="/"
+              to="/about"
               class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
               >About</RouterLink
             >
           </li>
           <li>
             <RouterLink
-              to="/"
+              to="/pricing"
               class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
               >Pricing</RouterLink
             >
@@ -50,7 +53,7 @@ import { RouterLink } from 'vue-router'
     </div>
   </header>
 
-  <div class="drawer absolute z-20 h-fit md:hidden">
+  <div class="drawer absolute z-40 h-fit md:hidden">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
 
     <div class="drawer-side">
@@ -58,18 +61,24 @@ import { RouterLink } from 'vue-router'
       <ul class="menu w-full gap-4 overscroll-none bg-base-100 p-4 font-mono text-3xl text-white">
         <!-- Sidebar content here -->
         <li>
-          <a href="#" class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
-            >Resouces</a
+          <RouterLink
+            to="/"
+            class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+            >Resouces</RouterLink
           >
         </li>
         <li>
-          <a href="#" class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
-            >About</a
+          <RouterLink
+            to="/about"
+            class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+            >About</RouterLink
           >
         </li>
         <li>
-          <a href="#" class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
-            >Pricing</a
+          <RouterLink
+            to="/pricing"
+            class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+            >Pricing</RouterLink
           >
         </li>
         <li class="flex flex-row justify-evenly">
