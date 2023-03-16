@@ -67,8 +67,8 @@
             />
           </div>
         </div>
-        <h2 class="text-3xl text-gray-300">We do things like this too!</h2>
-        <p class="mt-8">
+        <h2 class="text-2xl font-bold text-gray-400">We do things like this too!</h2>
+        <p class="mt-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel sapien nisi. Sed
           molestie quis odio ut facilisis. Duis porttitor turpis at sollicitudin ornare. Aenean
           vitae nulla justo. In egestas consequat sem, dapibus gravida velit. Nullam dictum, ligula
