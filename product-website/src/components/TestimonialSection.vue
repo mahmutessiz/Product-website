@@ -7,7 +7,9 @@
     </div>
 
     <!-- component -->
-    <div class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg">
+    <div
+      class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg transition-transform duration-300 hover:scale-105"
+    >
       <div class="-mt-16 flex justify-center md:justify-end">
         <img
           class="h-20 w-20 rounded-full border-2 border-indigo-500 object-cover"
@@ -27,7 +29,9 @@
       </div>
     </div>
 
-    <div class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg">
+    <div
+      class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg transition-transform duration-300 hover:scale-105"
+    >
       <div class="-mt-16 flex justify-center md:justify-end">
         <img
           class="h-20 w-20 rounded-full border-2 border-indigo-500 object-cover"
@@ -47,7 +51,9 @@
       </div>
     </div>
 
-    <div class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg">
+    <div
+      class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg transition-transform duration-300 hover:scale-105"
+    >
       <div class="-mt-16 flex justify-center md:justify-end">
         <img
           class="h-20 w-20 rounded-full border-2 border-indigo-500 object-cover"
@@ -67,7 +73,9 @@
       </div>
     </div>
 
-    <div class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg">
+    <div
+      class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg transition-transform duration-300 hover:scale-105"
+    >
       <div class="-mt-16 flex justify-center md:justify-end">
         <img
           class="h-20 w-20 rounded-full border-2 border-indigo-500 object-cover"
@@ -87,7 +95,9 @@
       </div>
     </div>
 
-    <div class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg">
+    <div
+      class="my-20 max-w-md rounded-lg bg-slate-200 py-4 px-8 shadow-lg transition-transform duration-300 hover:scale-105"
+    >
       <div class="-mt-16 flex justify-center md:justify-end">
         <img
           class="h-20 w-20 rounded-full border-2 border-indigo-500 object-cover"
