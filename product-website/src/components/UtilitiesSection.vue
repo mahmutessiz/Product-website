@@ -1,10 +1,10 @@
 <template>
   <section class="flex w-full flex-col items-center justify-center gap-2">
     <div class="grid max-w-[65rem] place-items-center gap-1">
-      <h2 class="mt-48 mb-4 text-3xl font-bold text-gray-200">What you do?</h2>
+      <h2 class="mt-48 mb-4 text-3xl font-bold text-gray-200 sm:text-5xl">What you do?</h2>
       <div
         tabindex="0"
-        class="collapse-plus rounded-box collapse w-3/4 border border-base-300 bg-base-100"
+        class="collapse-plus rounded-box collapse mt-12 w-3/4 border border-base-300 bg-base-100"
       >
         <div class="collapse-title text-xl font-medium">Focus me to see content</div>
         <div class="collapse-content" tabindex="0">

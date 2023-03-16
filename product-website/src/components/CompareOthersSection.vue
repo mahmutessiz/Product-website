@@ -1,9 +1,9 @@
 <template>
   <section class="mt-24 mb-12 flex w-full flex-col items-center justify-center">
-    <h2 class="py-4 text-center text-3xl font-bold text-gray-300 underline">
+    <h2 class="py-4 text-center text-3xl font-bold text-gray-300 sm:text-5xl">
       Product's pros & cons
     </h2>
-    <div class="flex w-2/3 max-w-[62rem] flex-col">
+    <div class="mt-12 flex w-2/3 max-w-[62rem] flex-col">
       <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
           <div class="overflow-hidden">
