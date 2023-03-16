@@ -3,6 +3,7 @@ import ProductsSection from './ProductsSection.vue'
 import CompareOthersSection from './CompareOthersSection.vue'
 import UtilitiesSection from './UtilitiesSection.vue'
 import GetInTouchSection from './GetInTouchSection.vue'
+import TestimonialSection from './TestimonialSection.vue'
 </script>
 
 <template>
@@ -93,5 +94,6 @@ import GetInTouchSection from './GetInTouchSection.vue'
   <ProductsSection />
   <UtilitiesSection />
   <CompareOthersSection />
+  <TestimonialSection />
   <GetInTouchSection />
 </template>

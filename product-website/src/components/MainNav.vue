@@ -64,7 +64,7 @@ import { RouterLink } from 'vue-router'
           <RouterLink
             to="/"
             class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
-            >Resouces</RouterLink
+            >Home</RouterLink
           >
         </li>
         <li>
