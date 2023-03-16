@@ -33,6 +33,13 @@ import { RouterLink } from 'vue-router'
               >Pricing</RouterLink
             >
           </li>
+          <li>
+          <RouterLink
+            to="/contact"
+            class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+            >Contact</RouterLink
+          >
+        </li>
         </ul>
       </div>
     </nav>
@@ -79,6 +86,13 @@ import { RouterLink } from 'vue-router'
             to="/pricing"
             class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
             >Pricing</RouterLink
+          >
+        </li>
+        <li>
+          <RouterLink
+            to="/contact"
+            class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+            >Contact</RouterLink
           >
         </li>
         <li class="flex flex-row justify-evenly">
