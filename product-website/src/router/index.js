@@ -41,7 +41,10 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/ErrorView.vue')
     }
-  ]
+  ],
+  scrollBehavior() {
+    return { top: 0, left: 0, behavior: 'smooth' }
+  }
 })
 
 export default router

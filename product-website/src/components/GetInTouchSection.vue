@@ -1,5 +1,6 @@
 <script setup>
 import VanillaTilt from 'vanilla-tilt'
+import { RouterLink } from 'vue-router'
 import { onMounted } from 'vue'
 
 onMounted(() => {
@@ -19,7 +20,11 @@ onMounted(() => {
       <div class="card-body items-center text-center text-xl text-gray-200">
         <p>Ask anythink you want about us.</p>
         <div class="card-actions mt-8">
-          <button class="btn-warning btn-outline btn hover:scale-105">Get in touch</button>
+          <RouterLink to="/contact"
+            ><button class="btn-outline btn-warning btn hover:scale-105">
+              Get in touch
+            </button></RouterLink
+          >
         </div>
       </div>
     </div>
