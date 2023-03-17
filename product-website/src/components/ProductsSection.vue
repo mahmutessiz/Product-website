@@ -9,7 +9,7 @@
       class="mt-12 flex h-fit max-w-[52rem] flex-wrap items-center justify-center gap-4 py-8 px-4 md:grid md:grid-cols-12 md:grid-rows-6 md:place-items-center md:gap-0"
     >
       <div
-        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-3 md:row-span-2 md:w-1/2 md:min-w-[12rem] md:p-1 md:p-2"
+        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-3 md:row-span-2 md:w-1/2 md:min-w-[12rem] md:p-2"
       >
         <img
           alt="gallery"
@@ -18,7 +18,7 @@
         />
       </div>
       <div
-        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-3 md:row-span-2 md:w-1/2 md:min-w-[12rem] md:p-1 md:p-2"
+        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-3 md:row-span-2 md:w-1/2 md:min-w-[12rem] md:p-2"
       >
         <img
           alt="gallery"
@@ -27,7 +27,7 @@
         />
       </div>
       <div
-        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-6 md:row-span-4 md:w-1/2 md:min-w-[23rem] md:p-1 md:p-2"
+        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-6 md:row-span-4 md:w-1/2 md:min-w-[23rem] md:p-2"
       >
         <img
           alt="gallery"
@@ -45,7 +45,7 @@
         />
       </div>
       <div
-        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-3 md:row-span-2 md:w-1/2 md:min-w-[12rem] md:p-1 md:p-2"
+        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-3 md:row-span-2 md:w-1/2 md:min-w-[12rem] md:p-2"
       >
         <img
           alt="gallery"
@@ -54,7 +54,7 @@
         />
       </div>
       <div
-        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-3 md:row-span-2 md:w-1/2 md:min-w-[12rem] md:p-1 md:p-2"
+        class="px-3 transition-all duration-300 hover:scale-105 md:col-span-3 md:row-span-2 md:w-1/2 md:min-w-[12rem] md:p-2"
       >
         <img
           alt="gallery"
