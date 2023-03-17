@@ -3,11 +3,14 @@ import { RouterLink } from 'vue-router'
 </script>
 <template>
   <header
-    class="sticky top-0 z-50 flex w-full items-center justify-between gap-4 bg-gray-900 py-6 px-4 sm:px-12"
+    class="sticky top-0 z-50 flex w-full items-center justify-between gap-4 bg-gray-900 py-2 px-4 sm:px-12 sm:pt-8"
   >
     <nav class="flex gap-4">
       <router-link to="/"
-        ><img src="../../public/favicon.ico" class="cursor-pointer" alt="logo"
+        ><img
+          src="../images/disco.png"
+          class="w-24 cursor-pointer rounded-lg opacity-80 sm:-mt-5 sm:w-32"
+          alt="logo"
       /></router-link>
 
       <div class="hidden md:flex">
@@ -34,16 +37,16 @@ import { RouterLink } from 'vue-router'
             >
           </li>
           <li>
-          <RouterLink
-            to="/contact"
-            class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
-            >Contact</RouterLink
-          >
-        </li>
+            <RouterLink
+              to="/contact"
+              class="cursor-pointer transition-colors duration-300 hover:text-gray-400"
+              >Contact</RouterLink
+            >
+          </li>
         </ul>
       </div>
     </nav>
-    <div class="flex items-center justify-center gap-4">
+    <div class="flex items-center justify-center gap-4 sm:-mt-3">
       <a class="hidden cursor-pointer sm:flex"
         ><img src="../images/facebook.png" class="w-8 bg-white" alt="facebook icon"
       /></a>
@@ -55,7 +58,7 @@ import { RouterLink } from 'vue-router'
       /></a>
       <div class="drawer-content md:hidden">
         <!-- Page content here -->
-        <label for="my-drawer" class="drawer-button btn-primary btn-outline btn">&#9776;</label>
+        <label for="my-drawer" class="drawer-button btn-outline btn-sm btn">&#9776;</label>
       </div>
     </div>
   </header>
