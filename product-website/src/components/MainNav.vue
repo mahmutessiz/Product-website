@@ -61,13 +61,13 @@ const drawer = () => {
     </nav>
     <div class="flex items-center justify-center gap-4 sm:-mt-3">
       <a class="hidden cursor-pointer sm:flex"
-        ><img src="../images/facebook.png" class="w-8 bg-white" alt="facebook icon"
+        ><img src="../images/facebook.png" class="w-8" alt="facebook icon"
       /></a>
       <a class="hidden cursor-pointer sm:flex"
-        ><img src="../images/discord.png" class="w-8 bg-white" alt="discord icon"
+        ><img src="../images/discord.png" class="w-8" alt="discord icon"
       /></a>
       <a class="hidden cursor-pointer sm:flex"
-        ><img src="../images/github.png" class="w-8 bg-white" alt="github icon"
+        ><img src="../images/github.png" class="w-8" alt="github icon"
       /></a>
       <div class="drawer-content md:hidden">
         <!-- Page content here -->
@@ -114,19 +114,13 @@ const drawer = () => {
           >
         </li>
         <li class="flex flex-row justify-evenly">
-          <a class="hidden cursor-pointer sm:flex"
-            ><img
-              src="../images/facebook.png"
-              class="w-8 cursor-pointer bg-white"
-              alt="facebook icon"
+          <a class="cursor-pointer"
+            ><img src="../images/facebook.png" class="w-8 cursor-pointer" alt="facebook icon"
           /></a>
-          <a class="hidden cursor-pointer sm:flex"
-            ><img
-              src="../images/discord.png"
-              class="w-8 cursor-pointer bg-white"
-              alt="discord icon"
+          <a class="cursor-pointer"
+            ><img src="../images/discord.png" class="w-8 cursor-pointer" alt="discord icon"
           /></a>
-          <a class="hidden cursor-pointer sm:flex"
+          <a class="cursor-pointer"
             ><img src="../images/github.png" class="w-8 cursor-pointer" alt="github icon"
           /></a>
         </li>
