@@ -1,5 +1,18 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+
+let drawerDisplayState = false
+const drawer = () => {
+  const draw = document.querySelector('#drawer')
+
+  if (drawerDisplayState == false) {
+    draw.classList.remove('hidden')
+    drawerDisplayState = true
+  } else {
+    draw.classList.add('hidden')
+    drawerDisplayState = false
+  }
+}
 </script>
 <template>
   <header
@@ -58,12 +71,14 @@ import { RouterLink } from 'vue-router'
       /></a>
       <div class="drawer-content md:hidden">
         <!-- Page content here -->
-        <label for="my-drawer" class="drawer-button btn-outline btn-sm btn">&#9776;</label>
+        <label for="my-drawer" class="drawer-button btn-outline btn-sm btn" @click="drawer"
+          >&#9776;</label
+        >
       </div>
     </div>
   </header>
 
-  <div class="drawer absolute z-40 h-fit md:hidden">
+  <div class="drawer absolute z-40 hidden h-fit" id="drawer">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
 
     <div class="drawer-side">
