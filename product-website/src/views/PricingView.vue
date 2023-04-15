@@ -2,7 +2,9 @@
   <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 
   <!-- ====== Pricing Section Start -->
-  <section class="bg-base relative z-20 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+  <section
+    class="bg-base relative z-20 overflow-hidden bg-slate-900 pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+  >
     <div class="container">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">

@@ -8,7 +8,7 @@ import SponsorSection from './SponsorSection.vue'
 </script>
 
 <template>
-  <main class="relative grid h-screen w-full place-items-center px-12">
+  <main class="relative grid h-screen w-full place-items-center bg-black/50 px-12">
     <video
       playsinline
       autoplay

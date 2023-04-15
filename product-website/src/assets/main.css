@@ -9,16 +9,5 @@
   scroll-behavior: smooth;
 }
 body {
-  /* background: repeating-linear-gradient(90deg, #323145 0, #323145 5%, transparent 0, transparent 50%), repeating-linear-gradient(180deg, #323145 0, #323145 5%, transparent 0, transparent 50%); */
-  background-size: 3em 3em;
-  background-color: rgba(0, 0, 0, 0.453);
-  opacity: 1;
-  position: relative;
-  background: linear-gradient(
-    324deg,
-    rgba(0, 249, 241, 0.539) -8%,
-    rgba(92, 35, 215, 0) 1%,
-    rgb(9, 8, 7) 88%
-  );
   font-family: Arial, Helvetica, sans-serif;
 }

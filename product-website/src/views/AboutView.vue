@@ -1,6 +1,6 @@
 <template>
   <section>
-    <main class="bg-base container relative mx-auto px-4">
+    <main class="container relative mx-auto bg-slate-800 px-4 text-gray-400">
       <div class="relative top-0 -mx-4 overflow-hidden pt-[17%]">
         <img
           class="absolute inset-0 h-full w-full object-cover object-top blur filter"

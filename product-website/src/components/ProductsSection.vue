@@ -1,10 +1,10 @@
 <template>
-  <div class="mt-24 grid w-full place-items-center">
+  <div class="grid w-full place-items-center bg-slate-800 pt-24">
     <h2 class="text-3xl font-bold text-gray-300 sm:text-5xl">Some cool stuf</h2>
   </div>
 
   <!-- image galery -->
-  <section class="flex w-full justify-center">
+  <section class="flex w-full justify-center bg-slate-800">
     <div
       class="mt-12 flex h-fit max-w-[52rem] flex-wrap items-center justify-center gap-4 py-8 px-4 md:grid md:grid-cols-12 md:grid-rows-6 md:place-items-center md:gap-0"
     >

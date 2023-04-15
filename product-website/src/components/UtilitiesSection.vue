@@ -1,5 +1,5 @@
 <template>
-  <section class="flex w-full flex-col items-center justify-center gap-2">
+  <section class="flex w-full flex-col items-center justify-center gap-2 bg-slate-900">
     <div class="grid max-w-[65rem] place-items-center gap-1">
       <h2 class="mt-48 mb-4 text-3xl font-bold text-gray-200 sm:text-5xl">What you do?</h2>
       <div

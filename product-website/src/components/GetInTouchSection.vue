@@ -12,8 +12,8 @@ onMounted(() => {
 })
 </script>
 <template>
-  <section class="mt-24 mb-24 flex w-full justify-center">
-    <div class="tilt-getintouch card w-1/2 max-w-[52rem] bg-base-100 shadow-xl">
+  <section class="flex w-full justify-center bg-slate-900 pt-24 pb-24">
+    <div class="tilt-getintouch card w-1/2 max-w-[52rem] bg-slate-800 shadow-xl">
       <figure class="py-4 px-2 sm:px-10 sm:pt-10">
         <img src="https://picsum.photos/500/200/" alt="Random photo" class="rounded-xl" />
       </figure>

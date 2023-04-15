@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full">
+  <div class="w-full bg-slate-800">
     <div class="h-96 bg-gradient-to-b from-rose-800 to-blue-600"></div>
-    <div class="mx-auto mb-12 max-w-5xl px-6 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-5xl px-6 pb-12 sm:px-6 lg:px-8">
       <div class="-mt-72 w-full rounded bg-gray-900 p-8 shadow sm:p-12">
         <p class="text-center text-3xl font-bold leading-7 text-white">Contact</p>
         <form action="" method="post">
